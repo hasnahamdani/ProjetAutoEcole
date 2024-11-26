@@ -22,7 +22,7 @@ class MoniteursController extends BaseController
             'nom' => 'required',
             'cin' => 'required',
             'tele' => 'required',
-            'type' => 'required', // 0 pour Théorique, 1 pour Pratique
+            'type' => 'required|in_list[Pratique,Théorique]',
             'dateCAP' => 'required|valid_date',
             'numCAP' => 'required',
         ]);
@@ -48,6 +48,7 @@ class MoniteursController extends BaseController
             return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
         }
     }
+
     public function supprimer($id)
 {
     $moniteursModel = new Moniteurs();
@@ -58,5 +59,45 @@ class MoniteursController extends BaseController
         return redirect()->to('/Moniteurs')->with('errors', ['Moniteur introuvable.']);
     }
 }
+ public function modifier($id)
+{
+    $moniteursModel = new Moniteurs();
+    $moniteur = $moniteursModel->find($id);
 
+    if (!$moniteur) {
+        return redirect()->to('/Moniteurs')->with('errors', ['Moniteur introuvable.']);
+    }
+
+    $data['moniteur'] = $moniteur;
+    return view('ModifierMoniteur', $data);
+}
+public function update($id)
+{
+    $validation = $this->validate([
+        'nom' => 'required',
+        'cin' => 'required',
+        'tele' => 'required',
+        'type' => 'required',
+        'dateCAP' => 'required|valid_date',
+        'numCAP' => 'required',
+    ]);
+
+    if ($validation) {
+        $data = [
+            'nom' => $this->request->getPost('nom'),
+            'cin' => $this->request->getPost('cin'),
+            'tele' => $this->request->getPost('tele'),
+           'type' => $this->request->getPost('type'),
+            'dateCAP' => $this->request->getPost('dateCAP'),
+            'numCAP' => $this->request->getPost('numCAP'),
+        ];
+
+        $moniteursModel = new Moniteurs();
+        $moniteursModel->update($id, $data);
+
+        return redirect()->to('/Moniteurs')->with('success', 'Moniteur modifié avec succès.');
+    } else {
+        return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+}
+}
 }
