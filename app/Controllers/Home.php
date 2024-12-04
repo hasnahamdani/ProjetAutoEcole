@@ -35,6 +35,7 @@ class Home extends BaseController
     {
         return view('Dashboard');
     }
+    
    
     public function Candidats()
     {

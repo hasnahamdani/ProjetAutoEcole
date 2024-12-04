@@ -44,6 +44,14 @@ $routes->get('/About', 'Home::About');
 
 $routes->post('login', 'AuthController::attemptLogin');
 
+$routes->get('email', 'TestEmailController::sendEmail');
+
+///7Rendez-Vous Admin
+$routes->get('/RendezVousAdmin', 'RendezvousController::RendezVousAdmin');
+
+
+
+
 
 
 

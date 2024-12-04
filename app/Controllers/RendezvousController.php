@@ -12,7 +12,13 @@ class RendezvousController extends BaseController
         $data['rendezvous'] = $RendezVousModel->findAll();
         return view('RendezVous', $data);
     }
-
+    public function RendezVousAdmin()
+    {
+        $RendezVousModels = new RendezVous();
+        $data['RendezVous'] = $RendezVousModels->findAll(); // Utilisez 'RendezVous' comme clé
+        return view('RendezVousAdmin', $data);
+    }
+    
     public function ajouter()
     {
         $RendezVousModel = new RendezVous();

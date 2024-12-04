@@ -168,7 +168,10 @@ line-height: 1.5;
 #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 16px; }
+.container { 
+  
+  padding-inline: 16px; 
+}
 
 .material-symbols-rounded {
 --fs: 1em;
@@ -347,6 +350,7 @@ z-index: 4;
 }
 
 .header .container {
+  
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -423,6 +427,7 @@ overflow: hidden;
 }
 
 .hero .container {
+ 
 display: grid;
 gap: 30px;
 }
@@ -529,7 +534,11 @@ line-height: 1.1;
 #WORK
 \*-----------------------------------*/
 
-.work .container { padding-inline: 0; }
+.work .container { 
+  position: relative;
+  top: 30px;
+  padding-inline: 0; 
+}
 
 .work .section-title { margin-block-end: 24px; }
 
@@ -1332,7 +1341,7 @@ font-size: var(--fs-6);
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="/uploads/logo.png" width="128" height="63" alt="autofix home">
+        <img src="/uploads/logo3.png" width="128" height="63" alt="autofix home">
       </a>
 
       <nav class="navbar" data-navbar>
@@ -1358,7 +1367,7 @@ font-size: var(--fs-6);
       </nav>
 
       <a href="/login" class="btn btn-primary">
-        <span class="span">Connection admin</span>
+        <span class="span">Connexion admin</span>
 
         <span class="material-symbols-rounded">arrow_forward</span>
       </a>
@@ -1394,9 +1403,9 @@ font-size: var(--fs-6);
       <section class="section work" aria-labelledby="work-label">
         <div class="container">
 
-          <p class="section-subtitle :light" id="work-label">Our Work</p>
+          
 
-          <h2 class="h2 section-title">Latest projects we have done</h2>
+          <h2 class="h2 section-title">AutoMaestro :</h2>
 
           <ul class="has-scrollbar">
 
@@ -1409,11 +1418,11 @@ font-size: var(--fs-6);
                 </figure>
 
                 <div class="card-content">
-                  <p class="card-subtitle">Auto Repair</p>
+               
 
-                  <h3 class="h3 card-title">Engine Repair</h3>
+                  <h3 class="h3 card-title">Prenez un rendez-vous</h3>
 
-                  <a href="#" class="card-btn">
+                  <a href="/RendezVous" class="card-btn">
                     <span class="material-symbols-rounded">arrow_forward</span>
                   </a>
                 </div>
@@ -1424,12 +1433,12 @@ font-size: var(--fs-6);
             <li class="scrollbar-item">
               <div class="work-card">
 
-               <strong>Bienvenue sur [Nom de l'auto-école], où votre réussite sur la route commence !
-                 Depuis [année de création], nous nous engageons à offrir une formation de qualité qui allie
+               <strong>Bienvenue sur AutoMaestro, où votre réussite sur la route commence !
+                 Depuis 2017, nous nous engageons à offrir une formation de qualité qui allie
                   professionnalisme, pédagogie et sécurité. Notre équipe d'instructeurs certifiés est là pour
                    vous accompagner à chaque étape, que vous soyez débutant ou en quête de perfectionnement. 
                    Grâce à nos méthodes modernes et à nos outils numériques, nous vous garantissons une expérience
-                    d’apprentissage efficace et adaptée à vos besoins. Faites confiance à [Nom de l'auto-école]
+                    d’apprentissage efficace et adaptée à vos besoins. Faites confiance à AutoMaestro
                      pour faire de vous un conducteur confiant et responsable !</strong>
 
               </div>

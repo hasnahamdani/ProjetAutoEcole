@@ -1322,14 +1322,14 @@ font-size: var(--fs-6);
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="/uploads/logo.png" width="128" height="63" alt="autofix home">
+        <img src="/uploads/logo3.png" width="128" height="63" alt="autofix home">
       </a>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link">Home</a>
+            <a href="/" class="navbar-link">Home</a>
           </li>
           <li>
             <a href="/RendezVous" class="navbar-link">Services</a>
@@ -1348,7 +1348,7 @@ font-size: var(--fs-6);
       </nav>
 
       <a href="/login" class="btn btn-primary">
-        <span class="span">Connection admin</span>
+        <span class="span">Connexion admin</span>
 
         <span class="material-symbols-rounded">arrow_forward</span>
       </a>
@@ -1378,13 +1378,11 @@ font-size: var(--fs-6);
 
           <div class="hero-content">
 
-            <p class="section-subtitle :dark">We have talented engineers & mechanics</p>
-
-            <h1 class="h1 section-title">Auto Maintenance & Repair Service</h1>
+            
+            <h1 class="h1 section-title">Conduisez vos rêves avec notre auto-école.</h1>
 
             <p class="section-text">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse Excepteur sint occaecat cupidatat non
-              proident.
+            La route vous attend ! Réservez votre rendez-vous aujourd’hui.
             </p>
 
             <a href="/RendezVous" class="btn">
@@ -1696,9 +1694,7 @@ font-size: var(--fs-6);
 
         <div class="footer-brand">
 
-          <a href="#" class="logo">
-            <img src="/uploads/logo.png" width="128" height="63" alt="autofix home">
-          </a>
+          
 
           <p class="footer-text">
             Rerum necessitatibus saepe eveniet aut et voluptates repudiandae sint et molestiae non recusandae.

@@ -1294,7 +1294,7 @@ font-size: var(--fs-6);
       justify-content: flex-start;
       align-items: center;
       padding: 10px;
-      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+      background-color: white;
     }
     header {
       width: 100%;
@@ -1315,7 +1315,7 @@ font-size: var(--fs-6);
       top: 200px;
       max-width: 700px;
       width: 100%;
-      background-color: #fff;
+      background-color:moccasin;
       padding: 25px 30px;
       border-radius: 5px;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
@@ -1434,7 +1434,7 @@ font-size: var(--fs-6);
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="/uploads/logo.png" width="128" height="63" alt="Autofix Home">
+        <img src="/uploads/logo3.png" width="128" height="63" alt="Autofix Home">
       </a>
 
       <nav class="navbar" data-navbar>
@@ -1447,7 +1447,7 @@ font-size: var(--fs-6);
       </nav>
 
       <a href="/login" class="btn btn-primary">
-        <span class="span">Connecxion admin</span>
+        <span class="span">Connexion admin</span>
         <span class="material-symbols-rounded">arrow_forward</span>
       </a>
 
@@ -1462,39 +1462,39 @@ font-size: var(--fs-6);
 
   <!-- REGISTRATION FORM -->
   <div class="container2">
-    <div class="title">Registration</div>
+    <div class="title">Prenez un rendez-vous :</div>
     <form action="/RendezVous" method="post">
       <div class="user-details">
         <div class="input-box">
-          <span class="details">Full Name</span>
+          <span class="details">Nom :</span>
           <input type="text" placeholder="Enter your name" required name="nom">
         </div>
         <div class="input-box">
-          <span class="details">Email</span>
+          <span class="details">Email :</span>
           <input type="email" placeholder="example@example.com" required name="email">
         </div>
         <div class="input-box">
-          <span class="details">Phone</span>
+          <span class="details">Téléphone :</span>
           <input type="number" placeholder="Enter your phone number" required name="tele">
         </div>
         <div class="input-box">
-          <span class="details">Address</span>
+          <span class="details">Adresse :</span>
           <input type="text" placeholder="Enter your address" required name="address">
         </div>
         <div class="input-box">
-          <span class="details">City</span>
+          <span class="details">Ville :</span>
           <input type="text" placeholder="Enter your city" required name="city">
         </div>
         <div class="input-box">
-          <span class="details">CIN</span>
+          <span class="details">CIN :</span>
           <input type="text" placeholder="Enter your CIN" required name="cin">
         </div>
         <div class="input-box">
-          <span class="details">Birthdate</span>
+          <span class="details">Date de naissance :</span>
           <input type="date" required name="dateNaissance">
         </div>
         <div class="input-box">
-          <span class="details">Appointment</span>
+          <span class="details">Rendez-vous :</span>
           <input type="text" id="appointment-date" placeholder="Choose a date" name="rendezVous">
         </div>
       </div>

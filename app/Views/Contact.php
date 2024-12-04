@@ -1142,7 +1142,7 @@ font-size: var(--fs-6);
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="/uploads/logo.png" width="128" height="63" alt="autofix home">
+        <img src="/uploads/logo3.png" width="128" height="63" alt="autofix home">
       </a>
 
       <nav class="navbar" data-navbar>
@@ -1168,7 +1168,7 @@ font-size: var(--fs-6);
       </nav>
 
       <a href="/login" class="btn btn-primary">
-        <span class="span">Connection admin</span>
+        <span class="span">Connexion admin</span>
 
         <span class="material-symbols-rounded">arrow_forward</span>
       </a>
@@ -1232,7 +1232,7 @@ font-size: var(--fs-6);
             <a href="tel:+01234567890" class="footer-link">
               <span class="material-symbols-rounded">call</span>
 
-              <span class="span">+01 2 3456 7890</span>
+              <span class="span">+212 645364735</span>
             </a>
           </li>
 
@@ -1240,7 +1240,7 @@ font-size: var(--fs-6);
             <a href="mailto:info@autofix.com" class="footer-link">
               <span class="material-symbols-rounded">mail</span>
 
-              <span class="span">info@autofix.com</span>
+              <span class="span">AutoMaestro@gmail.com</span>
             </a>
           </li>
 
@@ -1248,7 +1248,7 @@ font-size: var(--fs-6);
             <address class="footer-link address">
               <span class="material-symbols-rounded">location_on</span>
 
-              <span class="span">21 King Street Melbourne, 3000, Australia</span>
+              <span class="span">Hay Dakhla, Agadir</span>
             </address>
           </li>
 
