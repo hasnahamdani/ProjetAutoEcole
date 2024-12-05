@@ -22,7 +22,11 @@ class MoniteursController extends BaseController
             'nom' => 'required',
             'cin' => 'required',
             'tele' => 'required',
+<<<<<<< HEAD
             'type' => 'required', // 0 pour Théorique, 1 pour Pratique
+=======
+            'type' => 'required|in_list[Pratique,Théorique]',
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
             'dateCAP' => 'required|valid_date',
             'numCAP' => 'required',
         ]);
@@ -98,6 +102,10 @@ public function update($id)
         return redirect()->to('/Moniteurs')->with('success', 'Moniteur modifié avec succès.');
     } else {
         return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+<<<<<<< HEAD
     }
+=======
+}
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
 }
 }

@@ -1,6 +1,7 @@
 <?php $this->extend('layouts/admin'); ?>
 
 <?php $this->section('dashboard_content'); ?>
+<<<<<<< HEAD
 <main class="table" id="customers_table">
     <section class="table__header">
         <h1>Ajouter un Moniteur</h1>
@@ -181,3 +182,12 @@
 <script src="script.js"></script>
 
 <?php $this->endSection(); ?>
+=======
+<main class="dashboard d-flex">
+    <h1>Bienvenue dans  le vehicule</h1>
+   
+</main>
+<?php $this->endSection(); ?>
+
+
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04

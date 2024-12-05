@@ -20,6 +20,7 @@ class Validation extends BaseConfig
      *
      * @var list<string>
      */
+<<<<<<< HEAD
     public $ruleSets = [
         \CodeIgniter\Validation\Rules::class,
         \CodeIgniter\Validation\FileRules::class,
@@ -28,6 +29,14 @@ class Validation extends BaseConfig
         \Myth\Auth\Authentication\Passwords\ValidationRules::class, // Ajoutez cette ligne
     ];
     
+=======
+    public array $ruleSets = [
+        Rules::class,
+        FormatRules::class,
+        FileRules::class,
+        CreditCardRules::class,
+    ];
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
 
     /**
      * Specifies the views that are used to display the

@@ -2,21 +2,34 @@
 
 namespace App\Controllers;
 
+<<<<<<< HEAD
 use App\Models\Vehicules;
+=======
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
 use CodeIgniter\Controller;
 
 class VehiculesController extends Controller
 {
     public function index()
     {
+<<<<<<< HEAD
         $vehiculeModel = new Vehicules();
         $data['vehicules'] = $vehiculeModel->findAll();
 
         return view('Vehicules', $data);
+=======
+        return view('Vehicules'); // Charge une vue "index" pour la liste des véhicules
+    }
+
+    public function afficher($id)
+    {
+        // Code pour afficher un véhicule spécifique
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
     }
 
     public function ajouter()
     {
+<<<<<<< HEAD
         $validation = $this->validate([
             'Nom' => 'required|string|max_length[100]',
             'Image' => 'uploaded[Image]|is_image[Image]|max_size[Image,1024]',
@@ -131,3 +144,18 @@ public function update($id)
 
 
 }
+=======
+        // Code pour ajouter un nouveau véhicule
+    }
+
+    public function modifier($id)
+    {
+        // Code pour modifier un véhicule existant
+    }
+
+    public function supprimer($id)
+    {
+        // Code pour supprimer un véhicule
+    }
+}
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04

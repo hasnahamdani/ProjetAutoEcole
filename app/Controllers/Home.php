@@ -18,6 +18,7 @@ class Home extends BaseController
     {
         return view('test');
     }
+<<<<<<< HEAD
     public function test2()
     {
         return view('test2');
@@ -31,12 +32,21 @@ class Home extends BaseController
         return view('About');
     } 
     
+=======
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
     public function Dashboard()
     {
         return view('Dashboard');
     }
+<<<<<<< HEAD
     
    
+=======
+    public function Vehicules()
+    {
+        return view('Vehicules');
+    } 
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
     public function Candidats()
     {
         $moniteursModel = new Moniteurs();

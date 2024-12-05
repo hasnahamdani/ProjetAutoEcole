@@ -7,6 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/Dashboard', 'Home::Dashboard');
+<<<<<<< HEAD
 
 $routes->get('/Candidats', 'Home::Candidats');
 $routes->get('/Moniteurs', 'MoniteursController::index');
@@ -54,4 +55,25 @@ $routes->get('/RendezVousAdmin', 'RendezvousController::RendezVousAdmin');
 
 
 
+=======
+$routes->get('/Vehicules', 'Home::Vehicules');
+$routes->get('/Candidats', 'CandidatsController::index');
+$routes->get('/Moniteurs', 'MoniteursController::index');
+///ajouter moniteur
+$routes->post('/Moniteurs', 'MoniteursController::ajouter');
+$routes->post('/CandidatsA', 'CandidatsController::ajouter');
+//supprimer 
+$routes->get('Moniteurs/supprimer/(:num)', 'MoniteursController::supprimer/$1');
+$routes->get('Candidats/supprimer/(:num)', 'CandidatsController::supprimer/$1');
+$routes->get('/test', 'Home::test');
+// Route pour afficher le formulaire de modification
+$routes->get('Moniteurs/modifier/(:num)', 'MoniteursController::modifier/$1');
+// Route pour traiter la soumission du formulaire de modification  
+$routes->post('Moniteurs/update/(:num)', 'MoniteursController::update/$1');
+
+$routes->get('path_to_get_moniteur_info/(:num)', 'CandidatsController::getMoniteurInfo/$1');
+$routes->post('Candidats/update/(:num)', 'CandidatsController::update/$1');
+$routes->get('Candidats/modifier/(:num)', 'CandidatsController::modifier/$1');
+$routes->get('Candidats/getCandidatDetails/(:num)', 'CandidatsController::getCandidatDetails/$1');
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
 

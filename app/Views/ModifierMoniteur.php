@@ -28,4 +28,5 @@
     <button type="submit">Enregistrer les modifications</button>
 </form>
 
-<?= $this->endSection(); ?>
+<?= $this->endSection();
+?>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- 
 Responsive HTML Table With Pure CSS - Web Design/UI Design
 
@@ -355,12 +356,15 @@ thead th.active,tbody td.active {
     width: 2rem;
     height: auto;
 }
+=======
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
 
     </style>
 </head>
 
 <body>
     <main class="table" id="customers_table">
+<<<<<<< HEAD
         <section class="table__header">
             <h1>Customer's Orders</h1>
             <div class="input-group">
@@ -530,6 +534,13 @@ thead th.active,tbody td.active {
     <script src="script.js"></script>
 <script>
   /**
+=======
+       
+    </main>
+    <script src="script.js"></script>
+<script>
+    /**
+>>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
 Responsive HTML Table With Pure CSS - Web Design/UI Design
 
 Code written by:
