@@ -18,9 +18,9 @@
                             <img src="<?= base_url('uploads/' . esc($candidat['image'])) ?>" alt="Image">
                         </div>
                         <div class="details">
-                        <div class="name"><?= esc($candidat['nom']) ?></div>
+                        <div class="popup-name"><strong><?= esc($candidat['nom']) ?></strong></div>
                             <div class="job"><?= esc($candidat['cin']) ?></div>
-                            <div class="name"><?= esc($candidat['dateInscription']) ?></div>
+                            <div class="popup-name"><strong><?= esc($candidat['dateInscription']) ?></strong></div>
                         </div>
                        
                         <div class="icon-container">

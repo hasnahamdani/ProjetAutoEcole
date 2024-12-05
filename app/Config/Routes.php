@@ -32,10 +32,3 @@ $routes->post('/Vehicules/ajouter', 'VehiculesController::ajouter', ['as' => 've
 $routes->get('/Vehicules/supprimer/(:num)', 'VehiculesController::supprimer/$1');
 $routes->get('Vehicules/modifier/(:num)', 'VehiculesController::modifier/$1');
 $routes->post('/Vehicules/update/(:num)', 'VehiculesController::update/$1');
-
-/////rendez vous
-$routes->get('/RendezVous', 'RendezvousController::index');
-$routes->post('/RendezVous', 'RendezvousController::ajouter');
-// $routes->get('/RendezvousController/getUnavailableDates', 'RendezvousController::getUnavailableDates');
-
-$routes->get('/rendezvous', 'RendezvousController::getUnavailableDates');

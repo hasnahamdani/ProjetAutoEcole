@@ -428,9 +428,10 @@ form .buttons{
 
 /* Information styles */
 .popup-name {
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0;
-    color: #007bff;
+    color: #0d0e0e;
+    font-family: 'bold';
 }
 
 
