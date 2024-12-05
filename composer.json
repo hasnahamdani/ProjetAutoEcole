@@ -12,11 +12,15 @@
     "require": {
         "php": "^8.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "codeigniter4/framework": "^4.0",
         "myth/auth": "^1.2"
 =======
         "codeigniter4/framework": "^4.0"
 >>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
+=======
+        "codeigniter4/framework": "^4.0"
+>>>>>>> b89bed5c559c1a136074bf6185f35c42fa522a5b
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

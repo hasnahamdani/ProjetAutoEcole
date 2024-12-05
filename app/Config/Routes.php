@@ -6,8 +6,8 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+
 $routes->get('/Dashboard', 'Home::Dashboard');
-<<<<<<< HEAD
 
 $routes->get('/Candidats', 'Home::Candidats');
 $routes->get('/Moniteurs', 'MoniteursController::index');
@@ -55,7 +55,6 @@ $routes->get('/RendezVousAdmin', 'RendezvousController::RendezVousAdmin');
 
 
 
-=======
 $routes->get('/Vehicules', 'Home::Vehicules');
 $routes->get('/Candidats', 'CandidatsController::index');
 $routes->get('/Moniteurs', 'MoniteursController::index');
@@ -75,5 +74,12 @@ $routes->get('path_to_get_moniteur_info/(:num)', 'CandidatsController::getMonite
 $routes->post('Candidats/update/(:num)', 'CandidatsController::update/$1');
 $routes->get('Candidats/modifier/(:num)', 'CandidatsController::modifier/$1');
 $routes->get('Candidats/getCandidatDetails/(:num)', 'CandidatsController::getCandidatDetails/$1');
->>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
+
+
+
+$routes->get('/Vehicules', 'VehiculesController::index', ['as' => 'vehicules.index']);
+$routes->post('/Vehicules/ajouter', 'VehiculesController::ajouter', ['as' => 'vehicules.ajouter']);
+$routes->get('/Vehicules/supprimer/(:num)', 'VehiculesController::supprimer/$1');
+$routes->get('Vehicules/modifier/(:num)', 'VehiculesController::modifier/$1');
+$routes->post('/Vehicules/update/(:num)', 'VehiculesController::update/$1');
 

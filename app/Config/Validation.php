@@ -21,6 +21,7 @@ class Validation extends BaseConfig
      * @var list<string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public $ruleSets = [
         \CodeIgniter\Validation\Rules::class,
         \CodeIgniter\Validation\FileRules::class,
@@ -30,13 +31,18 @@ class Validation extends BaseConfig
     ];
     
 =======
+=======
+>>>>>>> b89bed5c559c1a136074bf6185f35c42fa522a5b
     public array $ruleSets = [
         Rules::class,
         FormatRules::class,
         FileRules::class,
         CreditCardRules::class,
     ];
+<<<<<<< HEAD
 >>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
+=======
+>>>>>>> b89bed5c559c1a136074bf6185f35c42fa522a5b
 
     /**
      * Specifies the views that are used to display the

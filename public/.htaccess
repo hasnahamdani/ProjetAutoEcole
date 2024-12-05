@@ -47,7 +47,4 @@ Options -Indexes
 # Disable server signature start
 ServerSignature Off
 # Disable server signature end
-<<<<<<< HEAD
 
-=======
->>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04

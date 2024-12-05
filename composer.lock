@@ -5,10 +5,14 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "5f4fb0e8a8c5198e311b90f45f66afb8",
 =======
     "content-hash": "657ac079313fab046eb8c29fe1d6992b",
 >>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
+=======
+    "content-hash": "657ac079313fab046eb8c29fe1d6992b",
+>>>>>>> b89bed5c559c1a136074bf6185f35c42fa522a5b
     "packages": [
         {
             "name": "codeigniter4/framework",
@@ -148,6 +152,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "myth/auth",
             "version": "v1.2.1",
             "source": {
@@ -224,6 +229,8 @@
         {
 =======
 >>>>>>> b3da94a285d2918939ed59599fb917cd18b2fb04
+=======
+>>>>>>> b89bed5c559c1a136074bf6185f35c42fa522a5b
             "name": "psr/log",
             "version": "3.0.2",
             "source": {
