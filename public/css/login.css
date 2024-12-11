@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/uploads/footer-shape-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container3 {
+    position: relative;
+    top: 0.6px;
+    left: 200px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+.card {
+    width: 100rem;
+    max-width: 400px;
+    min-height: 10rem;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-header {
+    background-color: hsl(1, 91%, 37%);
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    
+    margin-bottom: 20px;
+    padding: 10 15px;
+    height: 42px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.form-control {
+    width: 100%; 
+    padding: 12px 15px; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    box-sizing: border-box; 
+    transition: border-color 0.2s, box-shadow 0.2s; 
+}
+
+
+.form-control:focus {
+    border-color: #80bdff; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+    outline: none; 
+}
+
+
+.form-control.is-invalid {
+    border-color: #e3342f; 
+    background-color: #f8d7da; 
+}
+
+
+.invalid-feedback {
+    color: #e3342f; 
+    font-size: 14px; 
+    margin-top: 5px; 
+}
+
+
+.btn-primary {
+    background-color:hsl(1, 91%, 37%);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color:hsl(1, 100%, 32%);
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+.card-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.card-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+}
+
+small.form-text.text-muted {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+
+@media (min-width: 768px) {
+    .container3 {
+        padding: 30px;
+    }
+
+    .card {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container3 {
+        padding: 15px;
+    }
+
+    .card {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,107 @@
+body {
+
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.591)), url('/uploads/footer-shape-1.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: left center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+   
+  }
+
+  .container2 {
+    position: relative;
+    top: 100px;
+    max-width: 700px;
+    background-color:white;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .container2 .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .container2 .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background:  hsl(1, 91%, 37%);
+  }
+  form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+  }
+  .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .input-box input {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .input-box input:focus {
+    border-color: #9b59b6;
+  }
+  .button {
+    position: relative;
+    left: 250px;
+    width: 100%;
+    text-align: center;
+  }
+  .button input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background:  hsl(1, 91%, 37%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input:hover {
+    background:  hsl(1, 100%, 8%);
+  }
+  .flatpickr-day.blocked-date {
+    color: white !important;
+    background-color: red !important;
+    font-weight: bold;
+    border: 1px solid darkred !important;
+  }
+
+  .alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .alert-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
